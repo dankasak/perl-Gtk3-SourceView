@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Glib::Object::Introspection;
 
-our $VERSION = "0.12";
+our $VERSION = "0.20";
 
 
 # customization ------------------------------------------------------- #
@@ -56,7 +56,7 @@ sub import {
 
 	Glib::Object::Introspection->setup(
 		basename => 'GtkSource',
-		version => '3.0',
+		version => '4.0',
 		package => 'Gtk3::SourceView',
 
 		class_static_methods =>\@_CLASS_STATIC_METHODS,

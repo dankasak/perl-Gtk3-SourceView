@@ -56,7 +56,7 @@ sub import {
 
 	Glib::Object::Introspection->setup(
 		basename => 'GtkSource',
-		version => '3.0',
+		version => '4.0',
 		package => 'Gtk3::SourceView',
 
 		name_corrections => \%_NAME_CORRECTIONS,
